@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+
+  monapp:
+    image: monimg:0.1
+    depends_on: 
+        - redis
+    ports:
+        - "8000:8000"
+    networks:
+        - monreseau
+  redis:
+    image: redis
+    ports:
+        - "6379:6379"
+    networks:
+        - monreseau
+
+networks:
+     monreseau: 
