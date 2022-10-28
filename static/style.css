@@ -1,0 +1,22 @@
+body {
+	background-color: "grey"
+}
+
+h1 {
+	text-align: "center",
+	font-size: "larger",
+	color: "blue"
+}
+
+p {
+	text-align: "center",
+	font-size: "larger",
+	color: "red"
+}
+
+ul {
+	text-align: "center",
+	font-size: "larger",
+	color: "green"
+}
+	
